@@ -1,0 +1,674 @@
+# Question - 01 : Afghanistan
+
+Afghanistan = df[df.Location == 'Afghanistan']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Afghanistan[['Location','Period','First Tooltip']])
+
+# Question - 02 : Algeria  
+
+Algeria  = df[df.Location == 'Algeria']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Algeria[['Location','Period','First Tooltip']])                                                                         
+
+# Question - 03 : Argentina 
+
+Argentina  = df[df.Location == 'Argentina']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Argentina[['Location','Period','First Tooltip']])                                  
+
+# Question - 04 : Armenia 
+
+Armenia = df[df.Location == 'Armenia']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Armenia[['Location','Period','First Tooltip']])
+
+# Question - 05 : Bangladesh
+
+Bangladesh = df[df.Location == 'Bangladesh']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Bangladesh[['Location','Period','First Tooltip']])
+
+# Question - 06 : Central African Republic
+
+Central_African_Republic = df[df.Location == 'Central African Republic']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Central_African_Republic[['Location','Period','First Tooltip']])
+
+# Question - 07 : Chad
+
+Chad = df[df.Location == 'Chad']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Chad[['Location','Period','First Tooltip']])
+
+# Question - 08 : China
+
+China = df[df.Location == 'China']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(China[['Location','Period','First Tooltip']])
+
+# Question - 09 : India
+
+India = df[df.Location == 'India']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(India[['Location','Period','First Tooltip']])
+
+# Question - 10 : Indonesia
+
+Indonesia = df[df.Location == 'Indonesia']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Indonesia[['Location','Period','First Tooltip']])
+
+# Question - 11 : Thailand
+
+Thailand = df[df.Location == 'Thailand']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Thailand[['Location','Period','First Tooltip']])
+
+# Question - 12 : United Arab Emirates
+
+UAE = df[df.Location == 'United Arab Emirates']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(UAE[['Location','Period','First Tooltip']])
+
+
+
+
+--------------[ OUTPUT ]----------------------
+
+
+       Location  Period        First Tooltip
+0   Afghanistan    2018      4.86 [2.42-8.2]
+1   Afghanistan    2017     5.21 [2.88-8.38]
+2   Afghanistan    2016     5.65 [3.54-8.56]
+3   Afghanistan    2015     6.26 [4.43-8.83]
+4   Afghanistan    2014     7.02 [5.46-9.24]
+5   Afghanistan    2013      7.9 [6.35-9.99]
+6   Afghanistan    2012    8.74 [7.09-11.02]
+7   Afghanistan    2011    9.46 [7.67-12.07]
+8   Afghanistan    2010   10.03 [8.14-12.83]
+9   Afghanistan    2009    10.4 [8.44-13.05]
+10  Afghanistan    2008   10.49 [8.56-12.94]
+11  Afghanistan    2007   10.35 [8.51-12.61]
+12  Afghanistan    2006   10.16 [8.24-12.36]
+13  Afghanistan    2005     9.91 [7.9-12.23]
+14  Afghanistan    2004     9.7 [7.61-12.22]
+15  Afghanistan    2003     9.6 [7.41-12.36]
+16  Afghanistan    2002     9.6 [7.29-12.62]
+17  Afghanistan    2001     9.65 [7.2-13.01]
+18  Afghanistan    2000    9.75 [7.09-13.48]
+19  Afghanistan    1999     9.9 [6.96-14.14]
+20  Afghanistan    1998    10.18 [6.8-15.04]
+21  Afghanistan    1997   10.55 [6.61-16.05]
+22  Afghanistan    1996       11 [6.4-17.36]
+23  Afghanistan    1995   11.63 [6.29-18.94]
+24  Afghanistan    1994   12.32 [6.19-20.76]
+25  Afghanistan    1993    13.1 [6.24-22.97]
+26  Afghanistan    1992   14.04 [6.37-25.62]
+27  Afghanistan    1991   15.06 [6.63-28.65]
+28  Afghanistan    1990   16.36 [6.98-31.84]
+29  Afghanistan    1989   17.82 [7.47-35.53]
+30  Afghanistan    1988   19.36 [8.08-38.88]
+31  Afghanistan    1987   21.09 [8.98-42.57]
+32  Afghanistan    1986  23.11 [10.11-45.92]
+33  Afghanistan    1985  25.28 [11.65-49.11]
+34  Afghanistan    1984   27.7 [13.45-51.81]
+35  Afghanistan    1983  30.45 [15.86-55.07]
+36  Afghanistan    1982  33.46 [19.09-58.13]
+37  Afghanistan    1981   36.92 [22.77-60.3]
+38  Afghanistan    1980  41.03 [27.11-62.71]
+39  Afghanistan    1979  45.67 [31.28-67.46]
+40  Afghanistan    1978  50.86 [33.98-76.48]
+41  Afghanistan    1977  56.32 [34.71-94.24]
+
+
+--------------[ OUTPUT ]----------------------
+
+
+    Location  Period        First Tooltip
+71   Algeria    2018      3.61 [3.43-3.8]
+72   Algeria    2017     3.72 [3.59-3.86]
+73   Algeria    2016     3.83 [3.72-3.95]
+74   Algeria    2015     3.93 [3.83-4.03]
+75   Algeria    2014      4.01 [3.92-4.1]
+76   Algeria    2013     4.08 [3.99-4.16]
+77   Algeria    2012     4.14 [4.06-4.22]
+78   Algeria    2011     4.21 [4.14-4.29]
+79   Algeria    2010      4.32 [4.24-4.4]
+80   Algeria    2009     4.45 [4.37-4.53]
+81   Algeria    2008      4.6 [4.52-4.69]
+82   Algeria    2007     4.75 [4.67-4.85]
+83   Algeria    2006     4.92 [4.82-5.02]
+84   Algeria    2005          5.1 [5-5.2]
+85   Algeria    2004      5.3 [5.19-5.41]
+86   Algeria    2003     6.18 [6.05-6.31]
+87   Algeria    2002      5.8 [5.68-5.93]
+88   Algeria    2001     6.09 [5.96-6.22]
+89   Algeria    2000      6.35 [6.22-6.5]
+90   Algeria    1999      6.6 [6.43-6.77]
+91   Algeria    1998      6.82 [6.6-7.04]
+92   Algeria    1997     7.03 [6.74-7.32]
+93   Algeria    1996      7.22 [6.86-7.6]
+94   Algeria    1995     7.42 [6.98-7.89]
+95   Algeria    1994     7.63 [7.12-8.19]
+96   Algeria    1993     7.88 [7.31-8.49]
+97   Algeria    1992      8.16 [7.57-8.8]
+98   Algeria    1991     8.49 [7.89-9.14]
+99   Algeria    1990      8.9 [8.32-9.53]
+100  Algeria    1989      9.4 [8.86-9.99]
+101  Algeria    1988   10.02 [9.53-10.53]
+102  Algeria    1987  10.76 [10.36-11.19]
+103  Algeria    1986  11.63 [11.28-11.98]
+104  Algeria    1985  12.58 [12.25-12.91]
+105  Algeria    1984  13.59 [13.24-13.94]
+106  Algeria    1983  14.61 [14.24-14.99]
+107  Algeria    1982  15.61 [15.24-15.98]
+108  Algeria    1981   16.59 [16.2-16.99]
+109  Algeria    1980  17.59 [17.04-18.17]
+110  Algeria    1979  18.63 [17.72-19.61]
+
+
+--------------[ OUTPUT ]----------------------
+
+
+      Location  Period     First Tooltip
+198  Argentina    2018      2.1 [2-2.21]
+199  Argentina    2017  2.12 [2.05-2.19]
+200  Argentina    2016  2.14 [2.09-2.19]
+201  Argentina    2015  2.17 [2.13-2.21]
+202  Argentina    2014  2.21 [2.17-2.26]
+203  Argentina    2013  2.28 [2.23-2.32]
+204  Argentina    2012  2.36 [2.32-2.41]
+205  Argentina    2011  2.46 [2.41-2.51]
+206  Argentina    2010  2.56 [2.51-2.61]
+207  Argentina    2009   2.65 [2.6-2.69]
+208  Argentina    2008  2.71 [2.66-2.76]
+209  Argentina    2007  2.74 [2.69-2.79]
+210  Argentina    2006    2.75 [2.7-2.8]
+211  Argentina    2005  2.73 [2.68-2.78]
+212  Argentina    2004  2.71 [2.66-2.76]
+213  Argentina    2003  2.71 [2.66-2.76]
+214  Argentina    2002  2.72 [2.67-2.77]
+215  Argentina    2001   2.75 [2.7-2.81]
+216  Argentina    2000  2.79 [2.74-2.85]
+217  Argentina    1999   2.84 [2.79-2.9]
+218  Argentina    1998  2.89 [2.84-2.95]
+219  Argentina    1997     2.94 [2.89-3]
+220  Argentina    1996     3 [2.94-3.05]
+221  Argentina    1995  3.06 [3.01-3.12]
+222  Argentina    1994   3.14 [3.08-3.2]
+223  Argentina    1993  3.21 [3.15-3.27]
+224  Argentina    1992  3.27 [3.22-3.34]
+225  Argentina    1991   3.33 [3.27-3.4]
+226  Argentina    1990  3.39 [3.32-3.45]
+227  Argentina    1989  3.44 [3.38-3.51]
+228  Argentina    1988  3.52 [3.45-3.59]
+229  Argentina    1987  3.61 [3.55-3.68]
+230  Argentina    1986  3.74 [3.67-3.81]
+231  Argentina    1985  3.88 [3.81-3.96]
+232  Argentina    1984  4.05 [3.98-4.12]
+233  Argentina    1983  4.23 [4.15-4.31]
+234  Argentina    1982  4.41 [4.33-4.49]
+235  Argentina    1981   4.6 [4.52-4.69]
+236  Argentina    1980   4.79 [4.7-4.87]
+237  Argentina    1979  4.98 [4.88-5.07]
+238  Argentina    1978  5.17 [5.06-5.28]
+239  Argentina    1977  5.38 [5.24-5.53]
+240  Argentina    1976   5.59 [5.4-5.78]
+241  Argentina    1975  5.79 [5.56-6.04]
+242  Argentina    1974  5.99 [5.72-6.27]
+243  Argentina    1973   6.18 [5.9-6.48]
+244  Argentina    1972   6.37 [6.1-6.65]
+245  Argentina    1971  6.56 [6.31-6.83]
+246  Argentina    1970  6.75 [6.48-7.03]
+247  Argentina    1969  6.94 [6.57-7.34]
+
+
+--------------[ OUTPUT ]----------------------
+
+
+    Location  Period     First Tooltip
+248  Armenia    2018  1.93 [1.72-2.15]
+249  Armenia    2017  1.97 [1.79-2.15]
+250  Armenia    2016     2 [1.85-2.15]
+251  Armenia    2015   2.03 [1.9-2.16]
+252  Armenia    2014  2.04 [1.92-2.17]
+253  Armenia    2013  2.05 [1.94-2.18]
+254  Armenia    2012  2.05 [1.93-2.18]
+255  Armenia    2011  2.04 [1.92-2.16]
+256  Armenia    2010  2.01 [1.89-2.14]
+257  Armenia    2009  1.98 [1.86-2.11]
+258  Armenia    2008  1.94 [1.82-2.07]
+259  Armenia    2007  1.91 [1.79-2.03]
+260  Armenia    2006     1.87 [1.76-2]
+261  Armenia    2005  1.85 [1.73-1.97]
+262  Armenia    2004  1.83 [1.71-1.95]
+263  Armenia    2003  1.82 [1.71-1.94]
+264  Armenia    2002  1.82 [1.71-1.95]
+265  Armenia    2001  1.85 [1.74-1.97]
+266  Armenia    2000     1.88 [1.77-2]
+267  Armenia    1999  1.94 [1.83-2.06]
+268  Armenia    1998   2.01 [1.9-2.13]
+269  Armenia    1997   2.1 [1.98-2.24]
+270  Armenia    1996  2.21 [2.06-2.38]
+271  Armenia    1995  2.34 [2.14-2.55]
+272  Armenia    1994  2.48 [2.22-2.77]
+273  Armenia    1993  2.63 [2.28-3.03]
+274  Armenia    1992   2.8 [2.35-3.35]
+275  Armenia    1991  2.97 [2.39-3.71]
+276  Armenia    1990  3.16 [2.43-4.11]
+
+
+--------------[ OUTPUT ]----------------------
+
+
+       Location  Period        First Tooltip
+535  Bangladesh    2018     4.11 [2.75-6.04]
+536  Bangladesh    2017     4.46 [3.27-6.03]
+537  Bangladesh    2016     4.93 [3.94-6.13]
+538  Bangladesh    2015     5.53 [4.71-6.44]
+539  Bangladesh    2014     6.24 [5.51-7.06]
+540  Bangladesh    2013      7.02 [6.3-7.82]
+541  Bangladesh    2012     7.84 [7.14-8.61]
+542  Bangladesh    2011        8.69 [8-9.44]
+543  Bangladesh    2010    9.53 [8.86-10.26]
+544  Bangladesh    2009    10.3 [9.57-11.11]
+545  Bangladesh    2008  10.93 [10.16-11.78]
+546  Bangladesh    2007   11.33 [10.5-12.21]
+547  Bangladesh    2006  11.38 [10.54-12.31]
+548  Bangladesh    2005    11.1 [10.3-11.95]
+549  Bangladesh    2004   10.61 [9.83-11.48]
+550  Bangladesh    2003   10.11 [9.32-10.94]
+551  Bangladesh    2002       9.84 [9-10.71]
+552  Bangladesh    2001   10.11 [9.22-11.05]
+553  Bangladesh    2000   11.13 [10.3-12.02]
+554  Bangladesh    1999  12.82 [11.97-13.71]
+555  Bangladesh    1998  15.02 [14.08-16.04]
+556  Bangladesh    1997  17.44 [16.28-18.77]
+557  Bangladesh    1996  19.51 [18.13-21.07]
+558  Bangladesh    1995  20.82 [19.39-22.38]
+559  Bangladesh    1994  21.62 [20.01-23.39]
+560  Bangladesh    1993  22.44 [20.55-24.42]
+561  Bangladesh    1992    23.4 [21.16-25.7]
+562  Bangladesh    1991  31.54 [28.26-34.92]
+563  Bangladesh    1990  25.59 [23.03-28.27]
+564  Bangladesh    1989  26.69 [24.25-29.35]
+565  Bangladesh    1988  27.72 [25.44-30.22]
+566  Bangladesh    1987  28.53 [26.27-31.07]
+567  Bangladesh    1986  29.04 [26.59-31.82]
+568  Bangladesh    1985  29.14 [26.52-31.96]
+569  Bangladesh    1984  29.06 [26.24-32.12]
+570  Bangladesh    1983  29.03 [26.21-32.01]
+571  Bangladesh    1982   29.25 [26.43-32.3]
+572  Bangladesh    1981  30.03 [26.63-33.73]
+573  Bangladesh    1980   31.52 [26.84-36.8]
+574  Bangladesh    1979   33.76 [27.34-41.3]
+575  Bangladesh    1978  36.85 [28.63-47.07]
+576  Bangladesh    1977   40.71 [30.6-54.47]
+577  Bangladesh    1976  45.01 [32.98-62.61]
+578  Bangladesh    1975  49.81 [35.75-71.36]
+579  Bangladesh    1974  54.39 [38.52-79.48]
+580  Bangladesh    1973  58.21 [40.67-85.13]
+581  Bangladesh    1972  60.91 [42.37-89.31]
+582  Bangladesh    1971  62.61 [43.42-91.69]
+583  Bangladesh    1970  63.17 [43.97-91.18]
+584  Bangladesh    1969  62.82 [44.03-89.96]
+585  Bangladesh    1968  62.28 [43.86-88.73]
+586  Bangladesh    1967  61.61 [43.28-87.75]
+587  Bangladesh    1966  61.02 [42.44-87.38]
+588  Bangladesh    1965  60.83 [41.32-89.36]
+589  Bangladesh    1964   60.5 [39.26-93.93]
+590  Bangladesh    1963  60.62 [35.98-103.9]
+
+
+--------------[ OUTPUT ]----------------------
+
+
+                      Location  Period        First Tooltip
+1405  Central African Republic    2018    15.01 [7.7-29.71]
+1406  Central African Republic    2017      15.45 [8.14-30]
+1407  Central African Republic    2016   15.95 [8.57-30.28]
+1408  Central African Republic    2015   16.45 [9.02-30.58]
+1409  Central African Republic    2014   16.95 [9.49-30.78]
+1410  Central African Republic    2013  17.48 [10.07-30.95]
+1411  Central African Republic    2012     18 [10.64-31.12]
+1412  Central African Republic    2011   18.53 [11.26-31.3]
+1413  Central African Republic    2010   19.1 [11.94-31.43]
+1414  Central African Republic    2009  19.68 [12.63-31.64]
+1415  Central African Republic    2008  20.27 [13.27-31.78]
+1416  Central African Republic    2007   20.8 [13.93-32.04]
+1417  Central African Republic    2006  21.39 [14.57-32.21]
+1418  Central African Republic    2005  21.96 [15.24-32.39]
+1419  Central African Republic    2004  22.51 [15.91-32.32]
+1420  Central African Republic    2003  23.04 [16.67-32.09]
+1421  Central African Republic    2002  23.56 [17.38-32.01]
+1422  Central African Republic    2001  24.05 [18.04-32.05]
+1423  Central African Republic    2000  24.56 [18.65-32.12]
+1424  Central African Republic    1999  25.09 [19.31-32.37]
+1425  Central African Republic    1998  25.63 [19.95-32.59]
+1426  Central African Republic    1997   26.24 [20.58-32.9]
+1427  Central African Republic    1996  26.88 [21.22-33.29]
+1428  Central African Republic    1995   27.5 [21.89-33.76]
+1429  Central African Republic    1994  28.19 [22.61-34.33]
+1430  Central African Republic    1993  28.94 [23.43-35.02]
+1431  Central African Republic    1992   29.74 [24.2-35.74]
+1432  Central African Republic    1991   30.6 [25.12-36.62]
+1433  Central African Republic    1990  31.54 [26.12-37.55]
+1434  Central African Republic    1989  32.58 [27.24-38.59]
+                       ...     ...                  ...
+1436  Central African Republic    1987   34.8 [29.35-41.29]
+1437  Central African Republic    1986  36.05 [30.29-43.12]
+1438  Central African Republic    1985   37.3 [31.16-45.06]
+1439  Central African Republic    1984  38.56 [32.02-47.25]
+1440  Central African Republic    1983  39.87 [32.68-49.67]
+1441  Central African Republic    1982  41.13 [33.28-52.35]
+1442  Central African Republic    1981  42.45 [33.94-55.17]
+1443  Central African Republic    1980  43.76 [34.46-57.96]
+1444  Central African Republic    1979  45.09 [34.99-60.99]
+1445  Central African Republic    1978  46.43 [35.72-64.14]
+1446  Central African Republic    1977  47.86 [36.39-67.41]
+1447  Central African Republic    1976     49.23 [37-70.54]
+1448  Central African Republic    1975  50.65 [37.72-73.78]
+1449  Central African Republic    1974   52.16 [38.6-76.72]
+1450  Central African Republic    1973  53.71 [39.42-79.74]
+1451  Central African Republic    1972  55.25 [40.26-81.71]
+1452  Central African Republic    1971   56.81 [40.97-84.2]
+1453  Central African Republic    1970  58.45 [41.94-86.22]
+1454  Central African Republic    1969  60.14 [42.94-88.68]
+1455  Central African Republic    1968  61.72 [44.07-90.79]
+1456  Central African Republic    1967   63.46 [45.06-92.9]
+1457  Central African Republic    1966  65.23 [46.34-95.04]
+1458  Central African Republic    1965  67.07 [47.57-97.21]
+1459  Central African Republic    1964  68.92 [48.93-99.57]
+1460  Central African Republic    1963  70.75 [50.42-102.1]
+1461  Central African Republic    1962  72.57 [51.63-104.6]
+1462  Central African Republic    1961  74.52 [53.05-107.3]
+1463  Central African Republic    1960  76.51 [53.88-111.5]
+1464  Central African Republic    1959  78.53 [54.73-116.1]
+1465  Central African Republic    1958  80.71 [55.22-121.4]
+
+[61 rows x 3 columns]
+
+
+--------------[ OUTPUT ]----------------------
+
+
+     Location  Period        First Tooltip
+1466     Chad    2018    27.6 [19.83-38.9]
+1467     Chad    2017  28.36 [20.82-38.91]
+1468     Chad    2016  29.15 [21.83-38.92]
+1469     Chad    2015  29.81 [22.79-38.88]
+1470     Chad    2014   30.51 [23.8-38.76]
+1471     Chad    2013   31.17 [24.81-38.7]
+1472     Chad    2012   31.8 [25.86-38.69]
+1473     Chad    2011  32.43 [26.92-38.83]
+1474     Chad    2010   33.1 [27.92-39.04]
+1475     Chad    2009   33.8 [28.89-39.47]
+1476     Chad    2008  34.55 [29.79-39.89]
+1477     Chad    2007  35.29 [30.66-40.47]
+1478     Chad    2006   36.04 [31.5-41.11]
+1479     Chad    2005  36.81 [32.38-41.88]
+1480     Chad    2004  37.61 [33.19-42.66]
+1481     Chad    2003  38.42 [33.99-43.54]
+1482     Chad    2002    39.3 [34.8-44.42]
+1483     Chad    2001   40.22 [35.6-45.43]
+1484     Chad    2000  41.17 [36.42-46.51]
+1485     Chad    1999  42.13 [37.24-47.62]
+1486     Chad    1998   43.1 [38.01-48.76]
+1487     Chad    1997  44.08 [38.78-49.98]
+1488     Chad    1996   45.12 [39.62-51.1]
+1489     Chad    1995  46.18 [40.47-52.44]
+1490     Chad    1994  47.29 [41.45-53.83]
+1491     Chad    1993   48.5 [42.42-55.24]
+1492     Chad    1992  49.75 [43.31-56.77]
+1493     Chad    1991  51.08 [44.33-58.59]
+1494     Chad    1990  52.52 [45.26-60.51]
+1495     Chad    1989   53.9 [46.26-62.74]
+1496     Chad    1988   55.38 [47.09-65.2]
+1497     Chad    1987   56.8 [47.79-67.75]
+1498     Chad    1986   58.15 [48.22-70.9]
+1499     Chad    1985  59.56 [48.48-74.23]
+1500     Chad    1984  60.99 [48.53-77.91]
+
+
+--------------[ OUTPUT ]----------------------
+
+
+     Location  Period        First Tooltip
+1561    China    2018     2.38 [1.28-4.35]
+1562    China    2017     2.45 [1.35-4.38]
+1563    China    2016     2.52 [1.43-4.39]
+1564    China    2015     2.61 [1.52-4.45]
+1565    China    2014       2.7 [1.6-4.48]
+1566    China    2013     2.78 [1.69-4.51]
+1567    China    2012      2.87 [1.8-4.55]
+1568    China    2011     2.97 [1.91-4.58]
+1569    China    2010     3.07 [2.03-4.62]
+1570    China    2009     3.19 [2.16-4.65]
+1571    China    2008     4.29 [2.98-6.15]
+1572    China    2007     3.45 [2.46-4.85]
+1573    China    2006     3.61 [2.63-4.96]
+1574    China    2005     3.78 [2.84-5.04]
+1575    China    2004     3.97 [3.04-5.16]
+1576    China    2003     4.17 [3.25-5.33]
+1577    China    2002     4.38 [3.47-5.52]
+1578    China    2001     4.59 [3.68-5.74]
+1579    China    2000      4.82 [3.9-5.95]
+1580    China    1999      5.05 [4.1-6.22]
+1581    China    1998      5.3 [4.31-6.51]
+1582    China    1997     5.55 [4.52-6.82]
+1583    China    1996     5.81 [4.73-7.16]
+1584    China    1995     6.09 [4.94-7.49]
+1585    China    1994     6.38 [5.15-7.86]
+1586    China    1993     6.69 [5.37-8.27]
+1587    China    1992      7.01 [5.58-8.7]
+1588    China    1991     7.35 [5.82-9.15]
+1589    China    1990      7.7 [6.07-9.62]
+1590    China    1989    8.07 [6.35-10.11]
+1591    China    1988    8.47 [6.63-10.63]
+1592    China    1987    8.89 [6.93-11.21]
+1593    China    1986    9.34 [7.25-11.79]
+1594    China    1985    9.82 [7.59-12.48]
+1595    China    1984   10.31 [7.96-13.21]
+1596    China    1983   10.85 [8.33-13.98]
+1597    China    1982   11.44 [8.72-14.83]
+1598    China    1981   12.07 [9.12-15.71]
+1599    China    1980     12.7 [9.58-16.7]
+1600    China    1979  13.38 [10.02-17.75]
+1601    China    1978  14.12 [10.49-18.81]
+1602    China    1977   14.9 [11.01-19.95]
+1603    China    1976  15.71 [11.54-21.33]
+1604    China    1975  16.59 [12.04-22.76]
+1605    China    1974  17.53 [12.54-24.36]
+1606    China    1973   18.46 [13.01-26.3]
+1607    China    1972  19.45 [13.45-28.43]
+
+
+--------------[ OUTPUT ]----------------------
+
+
+     Location  Period        First Tooltip
+3494    India    2018      5.71 [4.87-6.6]
+3495    India    2017     5.98 [5.22-6.76]
+3496    India    2016      6.3 [5.61-7.01]
+3497    India    2015     6.67 [6.05-7.32]
+3498    India    2014     7.08 [6.53-7.66]
+3499    India    2013     7.53 [7.03-8.05]
+3500    India    2012        8 [7.53-8.49]
+3501    India    2011      8.5 [8.05-8.98]
+3502    India    2010      9.02 [8.58-9.5]
+3503    India    2009     9.56 [9.1-10.05]
+3504    India    2008    10.1 [9.63-10.64]
+3505    India    2007  10.67 [10.17-11.23]
+3506    India    2006  11.23 [10.72-11.83]
+3507    India    2005  11.81 [11.27-12.43]
+3508    India    2004   12.4 [11.83-13.04]
+3509    India    2003  12.99 [12.39-13.65]
+3510    India    2002  13.58 [12.97-14.27]
+3511    India    2001  14.18 [13.55-14.89]
+3512    India    2000  14.77 [14.13-15.51]
+3513    India    1999  15.37 [14.71-16.13]
+3514    India    1998  15.97 [15.29-16.75]
+3515    India    1997  16.56 [15.85-17.36]
+3516    India    1996  17.15 [16.41-17.96]
+3517    India    1995  17.73 [16.97-18.58]
+3518    India    1994  18.32 [17.54-19.18]
+3519    India    1993   18.91 [18.1-19.79]
+3520    India    1992  19.51 [18.64-20.41]
+3521    India    1991  20.11 [19.18-21.05]
+3522    India    1990   20.71 [19.72-21.7]
+3523    India    1989  21.32 [20.27-22.37]
+3524    India    1988  21.94 [20.83-23.08]
+3525    India    1987  22.58 [21.39-23.84]
+3526    India    1986  23.26 [21.96-24.59]
+3527    India    1985  23.96 [22.56-25.37]
+3528    India    1984   24.7 [23.21-26.21]
+3529    India    1983  25.48 [23.91-27.06]
+3530    India    1982   26.3 [24.68-27.93]
+3531    India    1981   27.17 [25.5-28.85]
+3532    India    1980  28.09 [26.39-29.81]
+3533    India    1979  29.05 [27.33-30.85]
+3534    India    1978  30.03 [28.27-31.93]
+3535    India    1977   31.05 [29.2-33.08]
+3536    India    1976  32.09 [30.13-34.25]
+3537    India    1975   33.1 [31.04-35.43]
+
+
+--------------[ OUTPUT ]----------------------
+
+
+       Location  Period        First Tooltip
+3545  Indonesia    2018     5.91 [4.49-8.76]
+3546  Indonesia    2017     6.05 [4.69-8.63]
+3547  Indonesia    2016     6.17 [4.89-8.44]
+3548  Indonesia    2015      6.31 [5.1-8.26]
+3549  Indonesia    2014     6.43 [5.31-8.08]
+3550  Indonesia    2013     6.57 [5.51-7.99]
+3551  Indonesia    2012     6.71 [5.71-7.95]
+3552  Indonesia    2011     6.85 [5.91-7.99]
+3553  Indonesia    2010      7.01 [6.1-8.07]
+3554  Indonesia    2009      7.18 [6.3-8.21]
+3555  Indonesia    2008       7.38 [6.5-8.4]
+3556  Indonesia    2007      7.6 [6.69-8.61]
+3557  Indonesia    2006     7.86 [6.93-8.84]
+3558  Indonesia    2005     8.13 [7.18-9.11]
+3559  Indonesia    2004  15.61 [13.85-17.48]
+3560  Indonesia    2003     8.75 [7.78-9.76]
+3561  Indonesia    2002    9.09 [8.12-10.12]
+3562  Indonesia    2001    9.46 [8.47-10.51]
+3563  Indonesia    2000    9.85 [8.84-10.94]
+3564  Indonesia    1999   10.26 [9.22-11.38]
+3565  Indonesia    1998   10.69 [9.63-11.83]
+3566  Indonesia    1997  11.12 [10.03-12.31]
+3567  Indonesia    1996  11.57 [10.44-12.77]
+3568  Indonesia    1995  12.03 [10.87-13.28]
+3569  Indonesia    1994  12.51 [11.33-13.81]
+3570  Indonesia    1993  13.02 [11.82-14.36]
+3571  Indonesia    1992  13.55 [12.33-14.94]
+3572  Indonesia    1991  14.11 [12.86-15.55]
+3573  Indonesia    1990    14.7 [13.39-16.2]
+3574  Indonesia    1989   15.3 [13.94-16.86]
+3575  Indonesia    1988  15.92 [14.51-17.55]
+3576  Indonesia    1987  16.57 [15.08-18.25]
+3577  Indonesia    1986  17.24 [15.68-18.99]
+3578  Indonesia    1985  17.93 [16.29-19.78]
+3579  Indonesia    1984    18.66 [16.9-20.6]
+3580  Indonesia    1983   19.4 [17.51-21.48]
+3581  Indonesia    1982  20.17 [18.12-22.42]
+3582  Indonesia    1981  20.97 [18.74-23.39]
+3583  Indonesia    1980  21.79 [19.36-24.43]
+3584  Indonesia    1979  22.65 [19.99-25.57]
+3585  Indonesia    1978  23.58 [20.65-26.81]
+3586  Indonesia    1977  24.56 [21.29-28.16]
+3587  Indonesia    1976   25.6 [21.95-29.61]
+3588  Indonesia    1975  26.68 [22.65-31.22]
+3589  Indonesia    1974  27.82 [23.37-32.96]
+3590  Indonesia    1973  29.03 [24.12-34.78]
+3591  Indonesia    1972  30.34 [24.86-36.75]
+3592  Indonesia    1971  31.74 [25.67-38.93]
+3593  Indonesia    1970   33.2 [26.44-41.35]
+3594  Indonesia    1969   34.7 [27.28-44.01]
+3595  Indonesia    1968  36.35 [28.19-46.93]
+3596  Indonesia    1967  38.06 [29.05-50.11]
+3597  Indonesia    1966  39.82 [29.89-53.54]
+3598  Indonesia    1965  41.62 [30.71-57.42]
+3599  Indonesia    1964  43.55 [31.37-61.69]
+
+
+--------------[ OUTPUT ]----------------------
+
+
+      Location  Period       First Tooltip
+7522  Thailand    2018     4.53 [3.73-5.8]
+7523  Thailand    2017    4.64 [3.88-5.78]
+7524  Thailand    2016    4.73 [4.02-5.76]
+7525  Thailand    2015    4.83 [4.16-5.79]
+7526  Thailand    2014    4.95 [4.27-5.86]
+7527  Thailand    2013    5.05 [4.38-5.95]
+7528  Thailand    2012    5.15 [4.48-6.07]
+7529  Thailand    2011      5.27 [4.6-6.2]
+7530  Thailand    2010    5.38 [4.71-6.35]
+7531  Thailand    2009     5.5 [4.82-6.51]
+7532  Thailand    2008    5.62 [4.92-6.67]
+7533  Thailand    2007    5.75 [5.01-6.83]
+7534  Thailand    2006    5.89 [5.11-7.02]
+7535  Thailand    2005    6.03 [5.19-7.23]
+7536  Thailand    2004     7.85 [6.7-9.45]
+7537  Thailand    2003    6.36 [5.36-7.66]
+7538  Thailand    2002    6.53 [5.46-7.89]
+7539  Thailand    2001    6.71 [5.56-8.13]
+7540  Thailand    2000    6.89 [5.68-8.36]
+7541  Thailand    1999    7.08 [5.81-8.62]
+7542  Thailand    1998    7.28 [5.96-8.88]
+7543  Thailand    1997    7.48 [6.11-9.15]
+7544  Thailand    1996      7.7 [6.28-9.4]
+7545  Thailand    1995    7.92 [6.45-9.69]
+7546  Thailand    1994    8.15 [6.64-9.97]
+7547  Thailand    1993    8.4 [6.82-10.28]
+7548  Thailand    1992   8.65 [7.01-10.62]
+7549  Thailand    1991   8.92 [7.22-10.94]
+7550  Thailand    1990    9.18 [7.45-11.3]
+7551  Thailand    1989   9.48 [7.68-11.66]
+7552  Thailand    1988   9.78 [7.93-12.07]
+7553  Thailand    1987   10.1 [8.18-12.56]
+7554  Thailand    1986  10.44 [8.43-13.04]
+7555  Thailand    1985  10.81 [8.69-13.57]
+7556  Thailand    1984  11.19 [8.94-14.18]
+7557  Thailand    1983   11.58 [9.15-14.8]
+7558  Thailand    1982  11.99 [9.37-15.53]
+7559  Thailand    1981  12.43 [9.53-16.39]
+7560  Thailand    1980  12.87 [9.66-17.43]
+
+
+--------------[ OUTPUT ]----------------------
+
+
+                  Location  Period      First Tooltip
+8008  United Arab Emirates    2018    1.5 [1.31-1.76]
+8009  United Arab Emirates    2017   1.53 [1.35-1.73]
+8010  United Arab Emirates    2016   1.54 [1.39-1.72]
+8011  United Arab Emirates    2015   1.57 [1.42-1.72]
+8012  United Arab Emirates    2014   1.59 [1.45-1.73]
+8013  United Arab Emirates    2013   1.62 [1.48-1.75]
+8014  United Arab Emirates    2012   1.66 [1.53-1.78]
+8015  United Arab Emirates    2011   1.71 [1.58-1.82]
+8016  United Arab Emirates    2010   1.76 [1.64-1.87]
+8017  United Arab Emirates    2009    1.82 [1.7-1.93]
+8018  United Arab Emirates    2008   1.88 [1.77-1.99]
+8019  United Arab Emirates    2007   1.96 [1.84-2.07]
+8020  United Arab Emirates    2006   2.04 [1.91-2.17]
+8021  United Arab Emirates    2005    2.14 [1.99-2.3]
+8022  United Arab Emirates    2004   2.25 [2.06-2.47]
+8023  United Arab Emirates    2003   2.37 [2.13-2.69]
+8024  United Arab Emirates    2002    2.5 [2.18-2.99]
+8025  United Arab Emirates    2001   2.63 [2.22-3.35]
+8026  United Arab Emirates    2000   2.76 [2.25-3.82]
+8027  United Arab Emirates    1999    2.91 [2.27-4.4]
+8028  United Arab Emirates    1998    3.06 [2.28-5.1]
+8029  United Arab Emirates    1997    3.21 [2.3-5.94]
+8030  United Arab Emirates    1996   3.38 [2.31-6.97]
+8031  United Arab Emirates    1995   3.56 [2.29-8.27]
+8032  United Arab Emirates    1994   3.75 [2.28-9.74]
+8033  United Arab Emirates    1993  3.94 [2.28-11.74]
+8034  United Arab Emirates    1992  4.15 [2.26-14.16]
+8035  United Arab Emirates    1991  4.36 [2.21-17.03]
+8036  United Arab Emirates    1990   4.6 [2.17-20.65]
